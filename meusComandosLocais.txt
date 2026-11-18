@@ -1,0 +1,22 @@
+﻿try { . "c:\Users\joaod\AppData\Local\Programs\Microsoft VS Code\69047191fc\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+cd .\LABINFO-03-26-27\
+git add .
+git commit -m "3.ª tarefa concluída"
+git push origin main
+git add .
+git commit -m "4.ª tarefa: adiciona navegação e conteúdo à página inicial"
+git push origin main
+cd ..
+cd .\LABINFO-03-26-27\
+git pull
+dir
+git add disciplina.html
+cp index.html disciplina.html
+git add disciplina.html
+git commit -m "Cria disciplina.html a partir de index.html"
+git push origin main
+git log
+git add .
+git commit -m "5.ª tarefa cumprida"
+git push origin main
+git pull
