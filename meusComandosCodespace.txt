@@ -1,0 +1,23 @@
+    1  pwd
+    2  echo "Nome Apelido" > identificacao.txt
+    3  echo "93424" >> identificacao.txt
+    4  cat identificacao.txt
+    5  git add identificacao.txt
+    6  git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+    7  git push
+    8  mkdir A93424
+    9  cd A93424
+   10  pwd
+   11  echo "Teste de LI 2026/2027" > README.md
+   12  cd ..
+   13  pwd
+   14  history > cmdstask2.txt
+   15  git add A93424/README.md cmdstask2.txt
+   16  git commit -m "2.ª tarefa concluída"
+   17  git push origin main
+   18  cp index.html disciplina.html
+   19  git add disciplina.html
+   20  git commit -m "Cria disciplina.html a partir de index.html"
+   21  git push
+   30  git pull
+   31  history > meusComandosCodespace.txt

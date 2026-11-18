@@ -1,20 +1,49 @@
 NOME: João Pombeiro
 NMEC: 93424
+pwd
+Resultado: /workspaces/LABINFO-03-26-27
 
+1.ª tarefa
+echo "Nome Apelido" > identificacao.txt
+echo "123456" >> identificacao.txt
+cat identificacao.txt
+git add identificacao.txt
+git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+git push
+
+2.ª tarefa
+mkdir A123456
+cd A123456
+pwd
+Resultado (passo 2): /workspaces/LABINFO-03-26-27/A123456
+echo "Teste de LI 2026/2027" > README.md
+cd ..
+pwd
+Resultado (passo 4): /workspaces/LABINFO-03-26-27
+history > cmdstask2.txt
+git add A123456/README.md cmdstask2.txt
+git status
+git commit -m "2.ª tarefa concluída"
+git push origin main
+
+3.ª tarefa
+cd ~\Documents
 git clone https://github.com/Pombeiro2000/LABINFO-03-26-27.git
-cd .\LABINFO-03-26-27
-
+cd LABINFO-03-26-27
+dir
+code .
+New-Item index.html
 git add index.html
 git commit -m "3.ª tarefa concluída"
 git push origin main
 
-4º Passo:
+4.ª tarefa
+start index.html
 git add index.html
 git commit -m "4.ª tarefa: adiciona navegação e conteúdo à página inicial"
 git push origin main
 
-
-5º Passo:
+5.ª tarefa
 Parte A
 cd /workspaces/LABINFO-03-26-27
 git pull
@@ -31,3 +60,40 @@ start index.html
 git add disciplina.html
 git commit -m "5.ª tarefa cumprida"
 git push origin main
+
+6.ª tarefa
+Parte A
+cd /workspaces/LABINFO-03-26-27
+git pull
+history > meusComandosCodespace.txt
+cat meusComandosCodespace.txt
+git add meusComandosCodespace.txt
+git commit -m "Tarefa 6: regista o histórico do Codespace"
+git push origin main
+
+
+=== Comandos do Codespace === 
+    1  pwd
+    2  echo "Nome Apelido" > identificacao.txt
+    3  echo "93424" >> identificacao.txt
+    4  cat identificacao.txt
+    5  git add identificacao.txt
+    6  git commit -m "Tarefa 1: adiciona o ficheiro de identificação"
+    7  git push
+    8  mkdir A93424
+    9  cd A93424
+   10  pwd
+   11  echo "Teste de LI 2026/2027" > README.md
+   12  cd ..
+   13  pwd
+   14  history > cmdstask2.txt
+   15  git add A93424/README.md cmdstask2.txt
+   16  git commit -m "2.ª tarefa concluída"
+   17  git push origin main
+   18  cp index.html disciplina.html
+   19  git add disciplina.html
+   20  git commit -m "Cria disciplina.html a partir de index.html"
+   21  git push
+   30  git pull
+   31  history > meusComandosCodespace.txt
+
