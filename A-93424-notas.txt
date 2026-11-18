@@ -1,2 +1,33 @@
 NOME: João Pombeiro
 NMEC: 93424
+
+git clone https://github.com/Pombeiro2000/LABINFO-03-26-27.git
+cd .\LABINFO-03-26-27
+
+git add index.html
+git commit -m "3.ª tarefa concluída"
+git push origin main
+
+4º Passo:
+git add index.html
+git commit -m "4.ª tarefa: adiciona navegação e conteúdo à página inicial"
+git push origin main
+
+
+5º Passo:
+Parte A
+cd /workspaces/LABINFO-03-26-27
+git pull
+ls
+cp index.html disciplina.html
+git add disciplina.html
+git commit -m "Cria disciplina.html a partir de index.html"
+git push origin main
+
+Parte B
+git pull
+dir
+start index.html
+git add disciplina.html
+git commit -m "5.ª tarefa cumprida"
+git push origin main
